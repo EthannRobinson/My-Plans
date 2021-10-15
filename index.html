@@ -14,7 +14,37 @@
 
 
   <body>
-  </body>
+    <div id="gameboard" class="flex">
+       <div class="flexColumn">
+          <h1>WAR!</h1>
+          <h2 id="winner">Winner</h2>
+          <h2>First Player has <span id="player1Count"></span> cards.</h2>
+          <h2>Second Player has <span id="player2Count"></span> cards.</h2>
+       </div><!--closes WAR! and player scores-->
+
+       <div class="flex">
+         <div id="firstPlayer" class="flexColumn player">
+           <h1>First Player</h1>
+           <div id="firstPlayerNumber" class="number">
+           </div>
+           <div id="firstPlayerSuit" class="suit">
+           </div>
+         </div> <!-- Closes first player-->
+
+         <h1 id="draw">Draw</h1>
+
+         <div id="secondPlayer" class="flexColumn player">
+           <h1>First Player</h1>
+           <div id="secondPlayerNumber" class="number">
+           </div>
+           <div id="secondPlayerSuit" class="suit">
+           </div>
+         </div><!-- Closes second player-->
+       </div><!-- Closes players-->
+     </div><!-- Closes gameboard-->
+
+    <script type="text/javascript" src"./js/script.js"></script>
+   </body>
 
 
 </html>
