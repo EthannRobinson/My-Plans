@@ -1,5 +1,19 @@
+body{
+margin: 5%;
+}
 
-h1 {
-color: darkblue;
-text-align: center;
+h2 {
+margin: 1rem 0;
+}
+
+.flex {
+display: flex;
+justify-content: center;
+}
+
+.flexColumn {
+display: flex;
+flex-direction: column;
+margin: 0 2rem;
+width: 30%;
 }
