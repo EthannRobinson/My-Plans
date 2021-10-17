@@ -17,3 +17,27 @@ flex-direction: column;
 margin: 0 2rem;
 width: 30%;
 }
+
+
+#draw {
+  border: solid 2px #000;
+  width: 8rem;
+  height: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.number {
+  font-size: 3rem;
+}
+
+.suit {
+  width: 15rem;
+}
+
+.player {
+  border: solid 1px #000;
+  width: 15rem;
+  height: 20rem;
+  text-align: center;
+}
